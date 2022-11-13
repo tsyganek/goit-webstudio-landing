@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+header{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    justify-content: space-around;
+}
+
