@@ -33,6 +33,7 @@ color: #FFFFFF;
 font-size: 44px;
 font-weight: 900;
 line-height: 1.4;
+margin-top: 200px;
 }
 
 button{
@@ -42,9 +43,11 @@ button{
     padding: 10px 20px;
     font-size: 16px;
     font-family: var(--main-font);
-    font-family: 700;
+    font-weight: 700;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin: auto;
+    margin-bottom: 200px;
 
 }
 
