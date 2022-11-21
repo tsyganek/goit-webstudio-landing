@@ -4,27 +4,32 @@
     --accent-text-color: #FFFFFF;
     --main-font:'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
+    --section-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --phone-color:#757575;
 }
 
-body{
+html{
     text-align: center;
     font-family: var(--main-font);
+}
+
+a{
+    text-decoration: none;
 }
 
 span{
     font-family: var(--secondary-font);
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    display: inline-block;
 }
 
-header{
+header .container{
     display: flex;
 }
 
-.hero{
-    height: 600px;
-    background-color:#2F303A;
-    text-align: center;
-}
 
 h1{
 display:inline-block;
@@ -63,3 +68,69 @@ li{
     justify-content: space-around;
 }
 
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.hero{
+    height: 600px;
+    background-color: var(--footer-background-color);
+    text-align: center;
+}
+
+.team {
+    background-color: var(--section-background-color);
+}
+
+footer{
+    background-color: var(--footer-background-color);
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 24px auto;
+}
+
+.nav-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin: 32px auto;
+}
+
+.nav-item-container{
+margin-right: 60px;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--main-text-color);
+}
+
+.nav-item:hover{
+    color:var(--secondary-text-color);
+}
+
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    margin: auto;
+}
+
+.email{
+    color: var(--secondary-text-color);
+    font-style: normal;
+    margin-right: 60px;
+}
+
+.phone{
+    color: var(--phone-color)
+}

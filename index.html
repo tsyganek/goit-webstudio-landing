@@ -12,31 +12,37 @@
 </head>
 <body>
     <header>
-        <a><span>WebStudio</span></a>
+        <div class = "container">
+            <div class = "logo">
+                <a href = ""><span>WebStudio</span></a>
+            </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="">Studio</a>
+            <ul class = "nav-block">
+                <li class = "nav-item-container">
+                    <a href="" class = "nav-item">Studio</a>
                 </li>
-                <li>
-                    <a href="">Portfolio</a>
+                <li class = "nav-item-container">
+                    <a href="" class = "nav-item">Portfolio</a>
                 </li>
-                <li>
-                    <a href="">Contacts</a>
+                <li class = "nav-item-container">
+                    <a href="" class = "nav-item">Contacts</a>
                 </li>
             </ul>
         </nav>
-        <div>
-            <a href="">info@devstudio.com</a>
-            <a href="">+38 096 111 11 11</a>
+        <div class = "contacts">
+            <address><a href="mailto:info@devstudio.com" class = "email">info@devstudio.com</a></address>
+            <a href="tel:12127724150" class = "phone">+1 212-772-4150</a>
         </div>
+      </div>   
     </header>
+
     <main>
         <section class = "hero">
             <h1>Effective solutions for<br/> your business</h1>
             <button>Request our service</button>
         </section>
-        <section class = "features">
+        <section class = "features container">
+            
             <ul>
                 <li>
                     <h3>Attention to details</h3>
@@ -56,7 +62,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class = "container">
             <h2>Чим ми займаємось</h2>
             <ul>
                 <li>
@@ -71,42 +77,45 @@
             </ul>
         </section>
         <section class = "team">
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <div class = "team-player-container">
-                        <img src="./images/walker.jpg" alt="Christopher Walker"  width = "270px">
-                        <h4>Christopher Walker</h4>
-                        <h5>Product Designer</h5>
-                    </div>
-                </li>
-                <li>
-                    <div class = "team-player-container">
-                        <img src="./images/evans.jpg" alt="Kylie Evans" width = "270px">
-                        <h4>Kylie Evans</h4>
-                        <h5>Frontend Developer</h5>
-                    </div>
-                </li>
-                <li>
-                    <div class = "team-player-container">
-                        <img src="./images/harris.jpg" alt="Ryan Harris"  width = "270px">
-                        <h4>Ryan Harris</h4>
-                        <h5>Marketing</h5>
-                    </div>
-                </li>
-                <li>
-                    <div class = "team-player-container">
-                        <img src="./images/moore.jpg" alt="Tyler Moore"  width = "270px">
-                        <h4>Tyler Moore</h4>
-                        <h5>UI Designer</h5>
-                    </div>
-                </li>
-            </ul>
+            <div class = "container">
+                <h2>Our Team</h2>
+                <ul>
+                    <li>
+                        <div class = "team-player-container">
+                            <img src="./images/walker.jpg" alt="Christopher Walker"  width = "270px">
+                            <h4>Christopher Walker</h4>
+                            <h5>Product Designer</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class = "team-player-container">
+                            <img src="./images/evans.jpg" alt="Kylie Evans" width = "270px">
+                            <h4>Kylie Evans</h4>
+                            <h5>Frontend Developer</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class = "team-player-container">
+                            <img src="./images/harris.jpg" alt="Ryan Harris"  width = "270px">
+                            <h4>Ryan Harris</h4>
+                            <h5>Marketing</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class = "team-player-container">
+                            <img src="./images/moore.jpg" alt="Tyler Moore"  width = "270px">
+                            <h4>Tyler Moore</h4>
+                            <h5>UI Designer</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
     </main>
     <footer>
         <ul>
-            <li><a href = "#"><span>Web</span>Studio</a></li>
+            <li><a href = "#"><span>WebStudio</span></a></li>
             <li><address>м. Київ, пр-т Лесі Українки, 26</address></li>
             <li>info@devstudio.com</li>
             <li>+38 096 111 11 11</li>
