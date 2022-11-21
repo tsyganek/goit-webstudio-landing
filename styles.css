@@ -157,3 +157,24 @@ address{
     opacity: 60%;
     font-style: normal;
 }
+
+.features p{
+    font-size: 14px;
+    line-height: 1.72;
+    color: var(--phone-color);
+    text-align: left;
+}
+
+.features h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.features li:not(:last-child){
+    margin-right: 30px;
+}
+
+
+
