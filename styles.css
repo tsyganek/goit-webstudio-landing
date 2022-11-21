@@ -85,6 +85,8 @@ li{
 
 footer{
     background-color: var(--footer-background-color);
+    text-align: left;
+    padding: 60px 0;
 }
 
 header .container{
@@ -92,8 +94,9 @@ header .container{
     justify-content: space-between;
 }
 
-.logo{
+header .logo{
     margin: 24px auto;
+    justify-content: left;
 }
 
 .nav-block{
@@ -133,4 +136,24 @@ margin-right: 60px;
 
 .phone{
     color: var(--phone-color)
+}
+
+footer ul{
+    display: block;
+    color: var(--accent-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.72;
+}
+
+address{
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.footer-email, .footer-phone{
+    color:var(--accent-text-color);
+    opacity: 60%;
+    font-style: normal;
 }
