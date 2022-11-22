@@ -232,6 +232,8 @@ h5{
 display: flex;
 flex-wrap: wrap;
 align-content: space-between;
+padding-top: 50px;
+padding-bottom: 64px;
 }
 
 .buttons{
@@ -259,15 +261,10 @@ align-content: space-between;
     padding: 6px 56px;
 }
 
-
-.portfolio{
-    padding-top: 50px;
-    padding-bottom: 94px;
-}
-
 .product-card{
     border:  1px solid #EEEEEE;
     margin-right: 27px;
+    margin-bottom: 30px;
 }
 
 .product-text{
