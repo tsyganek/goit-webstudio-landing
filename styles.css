@@ -133,15 +133,21 @@ margin-right: 60px;
     margin: auto;
 }
 
+
 .email{
-    color: var(--secondary-text-color);
     font-style: normal;
     margin-right: 60px;
-}
-
-.phone{
     color: var(--phone-color)
 }
+
+.phone{ color: var(--phone-color)}
+
+.email:hover, .phone:hover{
+    cursor: pointer;
+    color:var(--secondary-text-color)
+}
+
+    
 
 footer ul{
     display: block;
@@ -252,3 +258,12 @@ align-content: space-between;
     padding: 6px 56px;
 }
 
+/* universal classes */
+
+.active {
+    color: var(--secondary-text-color)
+}
+
+.border-bottom{
+    border-bottom: 1px solid #ECECEC;
+}
