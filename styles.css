@@ -235,6 +235,7 @@ align-content: space-between;
 }
 
 .buttons{
+    padding-top: 94px;
     display: flex;
    justify-content: space-around;
 }
@@ -258,6 +259,39 @@ align-content: space-between;
     padding: 6px 56px;
 }
 
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.product-card{
+    border:  1px solid #EEEEEE;
+    margin-right: 27px;
+}
+
+.product-text{
+    padding: 20px 24px;
+    text-align: left;
+}
+
+.product-name{
+    font: var(--main-font);
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    margin: 0px 0px;
+}
+
+.product-type{
+    font-size: 16px;
+    font: var(--main-font);
+    line-height: 1.88;
+    font-weight: 400;
+    color: var(--phone-color);
+    margin: 0px 0px;
+}
+
 /* universal classes */
 
 .active {
@@ -266,4 +300,8 @@ align-content: space-between;
 
 .border-bottom{
     border-bottom: 1px solid #ECECEC;
+}
+
+.no-margin-right{
+    margin-right: 0px;
 }
