@@ -218,3 +218,10 @@ h5{
     font-weight: 400;
     color:var(--phone-color);
 }
+
+.portfolio{
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+
+}
