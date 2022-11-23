@@ -205,15 +205,40 @@ address{
 
 .team{
     background-color: var(--section-background-color);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .team-player-container{
-    width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-right: 30px;
+}
+
+.team-player-text{
+    padding: 30px 32px;
+}
+
+.social-link{
+    display: inline-block;
+   
+    margin-right: 7px;
+}
+
+.social-link-img{
+    padding: 10px 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #757575;
+    border-radius: 50px;
+
+}
+
+.social-link:hover{
+    background-color: var(--secondary-text-color);
+    color: var(--accent-text-color);
+    cursor: pointer;
 }
 
 h4{
