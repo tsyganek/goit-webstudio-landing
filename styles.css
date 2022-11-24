@@ -224,6 +224,14 @@ address{
     padding: 30px 32px;
 }
 
+.team-player-name{
+    margin: none;
+}
+
+.team-player-position{
+    margin-top: 10px;
+}
+
 .social-link:hover{
     background-color: var(--secondary-text-color);
     color: var(--accent-text-color);
