@@ -203,7 +203,7 @@ address{
     margin-right: 30px;
 }
 
-.team, .what-we-do {
+.team, .what-we-do, .customers {
     padding: 94px 0;
 }
 
@@ -213,7 +213,7 @@ address{
     flex-wrap: wrap;
 }
 
-.team-section-headline{
+.team-section-headline, .customers-section-headline{
     margin-bottom: 50px;
     margin-top: 0px;
 }
