@@ -213,6 +213,11 @@ address{
     flex-wrap: wrap;
 }
 
+.team-section-headline{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
 .team-player-container{
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -286,8 +291,7 @@ padding-bottom: 64px;
 .product-card{
     box-sizing: border-box;
     border:  1px solid #EEEEEE;
-    margin-right: 27px;
-    margin-bottom: 30px;
+    margin-right: 0px 27px 30px 0px;
 }
 
 .product-card:hover{
