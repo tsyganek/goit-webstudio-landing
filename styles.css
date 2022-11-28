@@ -57,6 +57,7 @@ button{
 
 .hero{
     background-image: url(./images/hero_image.jpg);
+    background-color: #C4C4C4;
 }
 
 .hero-button{
@@ -291,7 +292,7 @@ padding-bottom: 64px;
 .product-card{
     box-sizing: border-box;
     border:  1px solid #EEEEEE;
-    margin-right: 0px 27px 30px 0px;
+    margin: 0px 27px 30px 0px;
 }
 
 .product-card:hover{
