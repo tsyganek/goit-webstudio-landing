@@ -7,6 +7,7 @@
     --section-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
     --phone-color:#757575;
+    --icon-main-color:#AFB1B8;
 }
 
 html{
@@ -259,6 +260,46 @@ address{
 }
 
 .what-we-do img {
+    margin-right: 30px;
+}
+
+.client1{
+    background-image: url(./images/client1.svg);
+}
+
+.client2{
+    background-image: url(./images/client2.svg);
+}
+.client3{
+    background-image: url(./images/client3.svg);
+}
+
+.client4{
+    background-image: url(./images/client4.svg);
+}
+
+.client5{
+    background-image: url(./images/client5.svg);
+}
+
+.client6{
+    background-image: url(./images/client6.svg);
+}
+
+.customer-container{
+    display: block;
+    border: solid var(--icon-main-color) 1px;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.customer-container:not(:last-child){
     margin-right: 30px;
 }
 
