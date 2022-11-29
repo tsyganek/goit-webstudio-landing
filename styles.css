@@ -145,7 +145,32 @@ margin-right: 60px;
     color: var(--phone-color)
 }
 
+
+.email::before{
+    content: "";
+    display: inline-block;
+    background-image: url("./images/envelope.svg");
+    height: 10px;
+    width: 15px;
+    background-size: contain;
+    background-repeat: none;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+}
+
 .phone{ color: var(--phone-color)}
+
+.phone::before{
+    content: "";
+    display: inline-block;
+    background-image: url("./images/phone.svg");
+    height: 14px;
+    width: 10px;
+    background-size: contain;
+    background-repeat: none;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+}
 
 .email:hover, .phone:hover{
     cursor: pointer;
