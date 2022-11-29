@@ -203,6 +203,10 @@ address{
     padding-top: 94px;
 }
 
+.features-headline{
+    display: none;
+}
+
 .features p{
     font-size: 14px;
     line-height: 1.72;
@@ -220,6 +224,35 @@ address{
 .features li:not(:last-child){
     margin-right: 30px;
 }
+
+.feature::before{
+    display: block;
+    content: "";
+    background-color: var(--section-background-color);
+    height:120px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.antenna::before{
+    background-image:url(./images/antenna.svg);
+}
+
+.clock::before{
+    background-image: url(./images/clock.svg);
+}
+
+.diagram::before{
+    background-image: url(./images/diagram.svg);
+}
+
+.astronaut::before{
+    background-image: url(./images/astronaut.svg);
+}
+
+
 
 .what-we-do img{
     width: 370px;
