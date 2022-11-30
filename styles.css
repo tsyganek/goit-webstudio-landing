@@ -94,12 +94,6 @@ li{
     text-align: center;
 }
 
-footer{
-    background-color: var(--footer-background-color);
-    text-align: left;
-    padding: 60px 0;
-}
-
 header .container{
     display: flex;
     justify-content: space-between;
@@ -178,7 +172,15 @@ margin-right: 60px;
     color:var(--secondary-text-color)
 }
 
-    
+
+footer{
+    background-color: var(--footer-background-color);
+    text-align: left;
+    display: flex;
+    padding: 60px 0;
+}
+
+
 
 footer ul{
     display: block;
@@ -198,6 +200,36 @@ address{
     color:var(--accent-text-color);
     opacity: 60%;
     font-style: normal;
+}
+
+.footer-social-headline{
+    color: var(--accent-text-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-social-section{
+display: block;
+}
+
+.footer-social-media-list{
+    display: flex;
+}
+
+.footer-social-link{
+ display: inline-block;
+ content: "";
+ height: 44px;
+ width: 44px;
+ border-radius: 50px;
+ background-color:  rgba(255, 255, 255, 0.1);
+ background-size: contain;
+ background-repeat: none;
+ margin-right: 8px;
+ background-repeat: no-repeat;}
+
+.instagram{
+    background-image: url(./images/instagram.svg);
 }
 
 .features{
