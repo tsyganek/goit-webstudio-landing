@@ -312,7 +312,15 @@ address{
     margin-right: 30px;
 }
 
-.client1{
+.icon-customer{
+    fill:red;
+}
+
+.icon-customer:hover{
+    fill: var(--secondary-text-color);
+}
+
+/* .client1{
     background-image: url(./images/client1.svg);
 }
 
@@ -333,7 +341,7 @@ address{
 
 .client6{
     background-image: url(./images/client6.svg);
-}
+} */
 
 .customer-container{
     display: block;
