@@ -230,19 +230,45 @@ address{
 }
 
 .footer-social-media{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 8px;
+}
+
+.social-media{
     display: block;
     height: 44px;
     width: 44px;
     border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-right: 8px;
+}
+
+.social-media-block{
+    padding: 0;
+}
+
+.social-media-team{
+    margin-right: 22px;
+}
+
+.social-media-team:hover{
+    background-color: var(--secondary-text-color);
 }
 
 .icon{
  width: 20px;
  height: 20px;
- fill: white;
  padding: 12px;
+}
+
+.icon-footer{
+fill: white;
+}
+
+.icon-team{
+    fill: #AFB1B8;
+}
+
+.icon-team:hover{
+    fill:white;
 }
 
 .footer-social-media:hover{
@@ -320,29 +346,6 @@ address{
     fill: var(--secondary-text-color);
 }
 
-/* .client1{
-    background-image: url(./images/client1.svg);
-}
-
-.client2{
-    background-image: url(./images/client2.svg);
-}
-.client3{
-    background-image: url(./images/client3.svg);
-}
-
-.client4{
-    background-image: url(./images/client4.svg);
-}
-
-.client5{
-    background-image: url(./images/client5.svg);
-}
-
-.client6{
-    background-image: url(./images/client6.svg);
-} */
-
 .customer-container{
     display: block;
     border: solid var(--icon-main-color) 1px;
@@ -352,9 +355,6 @@ address{
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-
 
 .customer-container:not(:last-child){
     margin-right: 30px;
